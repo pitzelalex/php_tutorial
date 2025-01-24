@@ -1,5 +1,8 @@
 <?php
-  $name = 'Yoshi';
+
+  define('NAME', 'Yoshi');
+  // $name = 'Yoshi';
+  $age = 30;
 ?>
 
 <!DOCTYPE html>
@@ -12,5 +15,6 @@
   <body>
     <h1><?php echo 'hello, ninjas'; ?></h1>
     <div><?php   echo $name; ?></div>
+    <div><?php   echo $age; ?></div>
   </body>
 </html>
