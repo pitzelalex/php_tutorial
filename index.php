@@ -1,5 +1,5 @@
 <?php
-  // echo 'hello world';
+  $name = 'Yoshi';
 ?>
 
 <!DOCTYPE html>
@@ -11,5 +11,6 @@
   </head>
   <body>
     <h1><?php echo 'hello, ninjas'; ?></h1>
+    <div><?php   echo $name; ?></div>
   </body>
 </html>
